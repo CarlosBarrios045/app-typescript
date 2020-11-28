@@ -124,7 +124,10 @@ function App(): JSX.Element {
               borderRadius={5}
             >
               <Flex align="center" justify="space-between" w="100%">
-                <Text style={{ textDecoration: t.done ? "line-through" : "" }}>
+                <Text
+                  style={{ textDecoration: t.done ? "line-through" : "" }}
+                  w="50%"
+                >
                   {t.name}
                 </Text>
                 <Flex align="center">
